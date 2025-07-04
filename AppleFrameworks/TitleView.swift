@@ -24,5 +24,3 @@ struct TitleView: View {
         .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
     }
 }
-
-

@@ -13,6 +13,8 @@
 		7E5B91E72E17689F007568BA /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91E62E17689F007568BA /* FrameworkView.swift */; };
 		7E5B91EA2E176A69007568BA /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91E92E176A69007568BA /* Framework.swift */; };
 		7E5B91EC2E176C2C007568BA /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91EB2E176C2C007568BA /* TitleView.swift */; };
+		7E5B91EE2E17762C007568BA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91ED2E17762C007568BA /* DetailsView.swift */; };
+		7E5B91F02E177A9D007568BA /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91EF2E177A9D007568BA /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7E5B91E62E17689F007568BA /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		7E5B91E92E176A69007568BA /* Framework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Framework.swift; path = ../../../../../.Trash/Framework.swift; sourceTree = "<group>"; };
 		7E5B91EB2E176C2C007568BA /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		7E5B91ED2E17762C007568BA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		7E5B91EF2E177A9D007568BA /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				7E5B91E62E17689F007568BA /* FrameworkView.swift */,
 				7E5B91EB2E176C2C007568BA /* TitleView.swift */,
+				7E5B91ED2E17762C007568BA /* DetailsView.swift */,
+				7E5B91EF2E177A9D007568BA /* AFButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -160,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5B91E72E17689F007568BA /* FrameworkView.swift in Sources */,
+				7E5B91EE2E17762C007568BA /* DetailsView.swift in Sources */,
 				7E5B91EA2E176A69007568BA /* Framework.swift in Sources */,
 				7E5B91D52E176806007568BA /* AppleFrameworksApp.swift in Sources */,
+				7E5B91F02E177A9D007568BA /* AFButton.swift in Sources */,
 				7E5B91EC2E176C2C007568BA /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
