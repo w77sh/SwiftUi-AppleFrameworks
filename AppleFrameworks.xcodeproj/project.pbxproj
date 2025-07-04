@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7E5B91D52E176806007568BA /* AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91D42E176806007568BA /* AppleFrameworksApp.swift */; };
-		7E5B91D72E176806007568BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91D62E176806007568BA /* ContentView.swift */; };
 		7E5B91D92E176808007568BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B91D82E176808007568BA /* Assets.xcassets */; };
 		7E5B91DC2E176808007568BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B91DB2E176808007568BA /* Preview Assets.xcassets */; };
+		7E5B91E72E17689F007568BA /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91E62E17689F007568BA /* FrameworkView.swift */; };
+		7E5B91EA2E176A69007568BA /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91E92E176A69007568BA /* Framework.swift */; };
+		7E5B91EC2E176C2C007568BA /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91EB2E176C2C007568BA /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E5B91D12E176806007568BA /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B91D42E176806007568BA /* AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksApp.swift; sourceTree = "<group>"; };
-		7E5B91D62E176806007568BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E5B91D82E176808007568BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5B91DB2E176808007568BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E5B91E62E17689F007568BA /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
+		7E5B91E92E176A69007568BA /* Framework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Framework.swift; path = ../../../../../.Trash/Framework.swift; sourceTree = "<group>"; };
+		7E5B91EB2E176C2C007568BA /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		7E5B91D32E176806007568BA /* AppleFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E5B91E82E176A39007568BA /* Model */,
 				7E5B91D42E176806007568BA /* AppleFrameworksApp.swift */,
-				7E5B91D62E176806007568BA /* ContentView.swift */,
+				7E5B91E32E17682D007568BA /* Views */,
 				7E5B91D82E176808007568BA /* Assets.xcassets */,
 				7E5B91DA2E176808007568BA /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				7E5B91DB2E176808007568BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E5B91E32E17682D007568BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B91E62E17689F007568BA /* FrameworkView.swift */,
+				7E5B91EB2E176C2C007568BA /* TitleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7E5B91E82E176A39007568BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B91E92E176A69007568BA /* Framework.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5B91D72E176806007568BA /* ContentView.swift in Sources */,
+				7E5B91E72E17689F007568BA /* FrameworkView.swift in Sources */,
+				7E5B91EA2E176A69007568BA /* Framework.swift in Sources */,
 				7E5B91D52E176806007568BA /* AppleFrameworksApp.swift in Sources */,
+				7E5B91EC2E176C2C007568BA /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
