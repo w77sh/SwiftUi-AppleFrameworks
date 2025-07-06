@@ -1,20 +1,21 @@
 //
-//  TitleView.swift
+//  DetailTitleView.swift
 //  AppleFrameworks
 //
-//  Created by AbdulRahman Habeeb on 04/07/2025.
+//  Created by AbdulRahman Habeeb on 06/07/2025.
 //
 
 import SwiftUI
 
-struct TitleView: View {
+struct DetailTitleView: View {
     let framework : Framework
     
     var body: some View {
         VStack{
             Image(framework.imageName)
                 .resizable()
-                .frame(width: 90,height: 90)
+                .frame(width: 160,height: 160)
+                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
@@ -27,5 +28,5 @@ struct TitleView: View {
 }
 
 #Preview {
-    TitleView(framework: MockData.sampleFramework)
+    DetailTitleView(framework : MockData.sampleFramework)
 }

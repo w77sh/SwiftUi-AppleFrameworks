@@ -16,6 +16,7 @@
 		7E5B91EE2E17762C007568BA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91ED2E17762C007568BA /* DetailsView.swift */; };
 		7E5B91F22E19EA9A007568BA /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91F12E19EA9A007568BA /* FrameworkGridViewModel.swift */; };
 		7E5B91F62E1A0512007568BA /* XDisMissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91F52E1A0512007568BA /* XDisMissButton.swift */; };
+		7E5B91F82E1A1480007568BA /* DetailTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B91F72E1A1480007568BA /* DetailTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7E5B91ED2E17762C007568BA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		7E5B91F12E19EA9A007568BA /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		7E5B91F52E1A0512007568BA /* XDisMissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDisMissButton.swift; sourceTree = "<group>"; };
+		7E5B91F72E1A1480007568BA /* DetailTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				7E5B91E62E17689F007568BA /* FrameworkView.swift */,
 				7E5B91EB2E176C2C007568BA /* TitleView.swift */,
+				7E5B91F72E1A1480007568BA /* DetailTitleView.swift */,
 				7E5B91ED2E17762C007568BA /* DetailsView.swift */,
 				7E5B91F52E1A0512007568BA /* XDisMissButton.swift */,
 			);
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5B91F82E1A1480007568BA /* DetailTitleView.swift in Sources */,
 				7E5B91E72E17689F007568BA /* FrameworkView.swift in Sources */,
 				7E5B91EE2E17762C007568BA /* DetailsView.swift in Sources */,
 				7E5B91F62E1A0512007568BA /* XDisMissButton.swift in Sources */,

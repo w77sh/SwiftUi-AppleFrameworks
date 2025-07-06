@@ -12,7 +12,7 @@ struct DetailsView: View {
     var body: some View {
         VStack {
             Spacer()
-            TitleView(framework: framework)
+            DetailTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
                 .padding()
