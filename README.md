@@ -14,15 +14,15 @@ A beautiful SwiftUI app demonstrating popular Apple frameworks. Browse, explore,
 ### Light Mode
 
 <p align="center">
-  <img src="screenshots/light1.png" alt="Light Mode Home" width="300"/>
-  <img src="screenshots/light2.png" alt="Light Mode Detail" width="300"/>
+  <img src="ScreenShots/light1.png" alt="Light Mode Home" width="300"/>
+  <img src="ScreenShots/light2.png" alt="Light Mode Detail" width="300"/>
 </p>
 
 ### Dark Mode
 
 <p align="center">
-  <img src="screenshots/dark1.png" alt="Dark Mode Home" width="300"/>
-  <img src="screenshots/dark2.png" alt="Dark Mode Detail" width="300"/>
+  <img src="ScreenShots/dark1.png" alt="Dark Mode Home" width="300"/>
+  <img src="ScreenShots/dark2.png" alt="Dark Mode Detail" width="300"/>
 </p>
 
 > Replace the screenshot filenames above with your actual uploaded files.
