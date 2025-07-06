@@ -18,9 +18,14 @@ struct TitleView: View {
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
+                .foregroundStyle(Color(.label))
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
         .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
     }
+}
+
+#Preview {
+    TitleView(framework: MockData.sampleFramework)
 }

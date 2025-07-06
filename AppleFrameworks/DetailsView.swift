@@ -11,15 +11,25 @@ struct DetailsView: View {
     var framework : Framework
     var body: some View {
         VStack {
+            Spacer()
             TitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
                 .padding()
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                AFButton(title: "Learn More")
-            })
+            Spacer()
+            
+            Button{
+                
+            } label: {
+                Label("Learn More",systemImage: "book.fill")
+                    .buttonStyle(.bordered)
+                    .controlSize(.large)
+                    .tint(.orange)
+            }
+            
         }
+        
     }
 }
 
